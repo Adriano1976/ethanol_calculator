@@ -46,17 +46,26 @@
 
     <?php
     echo "<h3>Olá $name, tudo bem? Seja bem vinda! </h3>";
-    if ($porcentagem < 0.70) {
+    if ($porcentagem <= 0.70) {
         echo "<h3 class='h3-yes'>Hoje compensa abastecer seu carro com ETANOL. </h3>";
 
-    } else {
+    } elseif ($porcentagem > 0.70 ) {
         echo "<h3 class='h3-no'>Hoje NÃO compensa abastecer seu carro com ETANOL. </h3>";
+        echo "<h3>Motivo: A porcentagem está abaixo de 0.70% </h3>";
 
+    } else {
+        echo "<h3>Opção Errada. Preencha os campos corretamente. </h3>";
     }
-    echo "<h3>Motivo: A porcentagem está abaixo de 0.70% </h3>";
+
     $gasolineAlcohol = number_format($gastoEthanol, 2, ",", ".");
     echo "<h3>Custo de abastecimento para $astonishment litros: R$ $gastoEthanol</h3>";
     ?>
+
+    <p>
+        <a href="../Index.html">
+            <input class="form-newsletter__botao" type="reset">
+        </a>
+    </p>
 </div>
 </body>
 
