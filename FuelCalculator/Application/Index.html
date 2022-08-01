@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator - Gasoline & Alcohol</title>
+    <style>
+        @import "css/Style.css";
+        @import "Services/Calculator.php";
+    </style>
+</head>
+
+<!-- Cabeçalho da página ----------------------------------------------------------->
+<header>
+    <div class="container">
+        <h1>Calculator - Gasoline & Alcohol</h1>
+    </div>
+</header>
+
+<!-- Corpo da página ----------------------------------------------------------->
+<body>
+<div class="container">
+    <section>
+        <form class="form-newsletter" action="Services/Calculator.php" method="get">
+            <p>
+
+                <label class="form-newsletter__label">Informe Seu Nome: </label>
+                <label>
+                    <input class="form-newsletter__campo" type="text" name="name">
+                </label><br/><br/>
+
+                <label class="form-newsletter__label">Valor do Etanol: </label>
+                <label>
+                    <input class="form-newsletter__campo" type="text" name="ethanol">
+                </label><br/><br/>
+
+                <label class="form-newsletter__label">Valor da Gasolina: </label>
+                <label>
+                    <input class="form-newsletter__campo" type="text" name="gasoline">
+                </label><br/><br/>
+
+                <label class="form-newsletter__label">Informe a quantidade de Gasolina: </label>
+                <label>
+                    <input class="form-newsletter__campo" type="text" name="astonishment">
+                </label><br/>
+            </p>
+            <p>
+                <input class="form-newsletter__botao" type="submit">
+            </p>
+        </form>
+    </section>
+</div>
+</body>
+
+<!-- Rodapé da página ----------------------------------------------------------->
+<footer>
+    <div class="container">
+        <h4>
+            &copy;Programação BackEnd I - 2022. │ R.A. 21181021-5 │ Adriano Santos
+        </h4>
+    </div>
+</footer>
+</html>

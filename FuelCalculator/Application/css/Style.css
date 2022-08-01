@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Rubik:wght@600&display=swap');
+
+.form-newsletter {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-radius: 7px;
+    border: 2px solid #e93d50;
+    background-color: #e93c50;
+}
+
+.form-newsletter__label {
+    flex-grow: 5;
+    padding: 18px 15px 15px 15px;
+    border: 10px;
+    font-style: italic;
+    font-size: 25px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    left: -10000px;
+    width: 5px;
+    height: 5px;
+    overflow: hidden;
+}
+
+.form-label {
+    margin-top: 10px;
+}
+
+.form-newsletter__campo {
+    font-style: normal;
+    font-size: 20px;
+    padding: 18px 15px 15px 50px;
+    flex-grow: 2;
+    border: 20px;
+    border-radius: 6px;
+}
+
+.form-newsletter__botao {
+    flex-grow: 150;
+    padding: 100px 100px 100px 100px;
+    border: 20px;
+    margin-inside: 20px;
+    margin: 20px;
+    text-transform: uppercase;
+    font-weight: 800;
+    background-color: #005488;
+    color: #fff;
+    border-radius: 6px;
+}
+
+body {
+    background-color: azure;
+    font-family: tahoma;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px;
+}
+
+.container h1 {
+    background-color: #005488;
+    padding: 18px 15px 15px 15px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 32px;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.container h2 {
+    width: 600px;
+    margin: 0 auto;
+    font-family: 'Rubik', sans-serif;
+    font-size: 23px;
+    color: black;
+    background-color: #cccccc;
+    border-bottom: 5px solid #005488;
+    padding: 15px 10px 10px 10px;
+    border-radius: 10px;
+}
+
+.h3-yes {
+    background-color: rgba(1, 234, 13, 0.75);
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;
+}
+
+.h3-no {
+    background-color: rgba(239, 9, 33, 0.7);
+    padding: 20px 20px 20px 20px;
+    border-radius: 20px;
+}
+
+.container h3 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 22px;
+    color: #3d3a3a;
+}
+
+header {
+    width: 100%;
+    background-color: #005488;
+    padding: 1px;
+    color: #ffffff;
+    font-family: 'Dosis', sans-serif;
+    font-size: 19px;
+    border-radius: 10px;
+}
+
+footer {
+    width: 100%;
+    background-color: #005488;
+    padding: 1px;
+    color: #ffffff;
+    font-family: 'Dosis', sans-serif;
+    font-size: 19px;
+    border-radius: 10px;
+}
+
